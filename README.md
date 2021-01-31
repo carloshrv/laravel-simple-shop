@@ -12,11 +12,10 @@ Simple e-commerce platform with admin dashboard to manage the products in the pl
 E-commerce common user interface in Vue.js using laravel back-end.
 More admin features, like graphics and reports.
 
-<h2>Features</h2
--🔭
-- Admin Login.
-- Admin Logout.
-- Password Recover via email.
-- New Flights creation.
-- Remove and edit existing flights.
-- Add images to better define the created flights.
+<h2>Features</h2>
+• Admin Login. <br/>
+• Admin Logout. <br/>
+• Password Recover via email. <br/>
+• New Flights creation. <br/>
+• Remove and edit existing flights. <br/>
+• Add images to better define the created flights. <br/>

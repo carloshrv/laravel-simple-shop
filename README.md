@@ -2,7 +2,7 @@
 Simple e-commerce platform with admin dashboard to manage the products in the platform made in Laravel+Blade.
 
 <h2>Admin Environment</h2>
-[Imgur](https://i.imgur.com/i6LlOzv.png)
+![Img](https://i.imgur.com/i6LlOzv.png)
 
 
 

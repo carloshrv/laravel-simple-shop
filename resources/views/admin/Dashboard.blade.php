@@ -3,8 +3,6 @@
 
 
 @section('conteudo-view')
-
-
 <a id='logout' href="{{route('admin.logout')}}">Logout</a>
 
 {!! Form::open(['route' => 'voo.store' ,'method' => 'post', 'class' => 'form-padrao', 'enctype' => 'multipart/form-data']) !!}

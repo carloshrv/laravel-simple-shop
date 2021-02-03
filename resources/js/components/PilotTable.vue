@@ -13,13 +13,12 @@
 
             </thead>
             <tbody>
-                <tr v-for="pilot in orderedPilots">
+                    <tr v-for="pilot in orderedPilots">
                 
-                    <th>{{ pilot.nome_piloto }}</th>
-
-                    <th>{{ pilot.id }}</th>
+                        <th>{{ pilot.nome_piloto }}</th>
+                        <th>{{ pilot.id }}</th>
                 
-                </tr>
+                    </tr>
             </tbody>
     </table>
 
@@ -35,6 +34,7 @@
         data() {
             return {
                 list: [],
+                voolist: [],
                 sortProperty: 'nome_piloto',
                 sortDirection: 1,
             }
@@ -60,7 +60,7 @@
         computed: {
             orderedPilots: function () {
                 return _.orderBy(this.list, this.sortProperty)
-            }
+            },
         }
     }
 </script>

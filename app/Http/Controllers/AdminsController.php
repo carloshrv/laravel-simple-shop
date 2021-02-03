@@ -180,10 +180,12 @@ class AdminsController extends Controller
     {
         $admins = $this->repository->all();
         $pilotos_list = Piloto::all()->pluck('nome_piloto', 'id');;
+        $pilotos = Piloto::all();
 
         if (Auth::check()){
         return view('admin.Dashboard', [
-            'pilotos_list' => $pilotos_list
+            'pilotos_list' => $pilotos_list,
+            'pilotos' => $pilotos,
         ]);
     } else {
         return redirect()->route('admin.login');

@@ -18,17 +18,9 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
       
-        Admin::create([
-            'email' => 'carloshenriquereis12@gmail.com',
-            'password' => '123456789',
-        ]);
-        Admin::create([
-            'email' => 'SegundoAdmin@admin.com',
-            'password' => '123456789',
-        ]);
         Piloto::create([
-            'nome_piloto' => 'carlos',
-            'data_validade_registro' => 2025,
+            'nome_piloto' => 'Junior',
+            'data_validade_registro' => 2024,
         ]);
         
     }

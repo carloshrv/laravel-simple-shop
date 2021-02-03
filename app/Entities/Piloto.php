@@ -26,7 +26,7 @@ class Piloto extends Model implements Transformable
     ];
 
     public function Voos(){
-        return $this->hasMany(Voo::class);
+        return $this->hasMany(Voo::class, 'id_piloto');
     }
 
 

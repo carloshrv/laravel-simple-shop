@@ -13,9 +13,14 @@ E-commerce common user interface in Vue.js using laravel back-end.
 More admin features, like graphics and reports.
 
 <h2>Features</h2>
+<<<<<<< HEAD
 • Admin Log-in. <br/>
 • Admin Log-out. <br/>
+=======
+• Admin Login. <br/>
+• Admin Logout. <br/>
+>>>>>>> 966d2372944c4e58d381f33e26ac8463a76ebe1b
 • Password Recover via email. <br/>
-• New Flights creation. <br/>
+• New great Flights creation. <br/>
 • Remove and edit existing flights. <br/>
 • Add images to better define the created flights. <br/>

@@ -37,7 +37,6 @@
 {!! Form::close() !!}
 
 
-
-
+<piloto-table pilots="{{ $pilotos }}"></piloto-table>
 
 @endsection
